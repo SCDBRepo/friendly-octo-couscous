@@ -43,9 +43,11 @@ jobs:
             fi
           done
 
+          echo "Packages: $(cat .packages)";
+
           for package in $(cat .packages); do
-            npm install ${package}
-          done
+            npm install ${package};
+          done;
 
           rm .packages
 
