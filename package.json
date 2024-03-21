@@ -1,6 +1,6 @@
 {
-  "name": "@test/simple-template",
-  "version": "1.0.15",
+  "name": "@scdb/friendly-octo-couscous",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+    "url": "https://github.com/SCDBRepo/friendly-octo-couscous.git"
   },
   "dependencies": {
+    "@scdb/curly-robot": "^1.0.0",
+    "@scdb/silver-octo-meme": "^1.0.1",
     "@scdb/simple-http": "^1.0.7",
     "@utilcode/simple-http": "^1.0.1"
   }
